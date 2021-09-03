@@ -1,0 +1,70 @@
+
+
+
+
+
+.SiteTitle:before{
+    content: url(../assets/images/morocco.png);
+    position: relative;
+    top: 5px;
+}
+.navitem:hover{
+font-size: 1.3em;
+}
+.SiteTitle:hover{
+font-weight: 900;
+letter-spacing: .1em;
+transition: .5s;
+}
+.section1{
+    background: url(../assets/images/imageedit_2_6213772232.png) no-repeat center center/cover;
+    margin-bottom: 15px;
+}
+#sect1{
+    padding-top: 150px;
+    padding-bottom: 150px;
+
+}
+
+.bi-award-fill:hover{
+filter: invert(.5);
+transform: rotate(360deg);
+}
+
+.section2{
+    background: url(../assets/images/imageedit_4_3710513237.png) no-repeat center center/cover;
+    margin-bottom: 15px;
+}
+.section2 .img-card:hover{
+    transform: scale(1.08);
+    opacity: 0.85;
+}
+ .section1 .text-home-intro:hover{
+    color: white;
+}
+
+.section3{
+    background: url(../assets/images/imageedit_7_2005696320.png) no-repeat center center/cover;
+    margin-bottom: 15px;
+}
+.section3 .sports-h2-text:hover{
+color: white;
+}
+.section4{
+    background: url(../assets/images/imageedit_10_4435738060.png) no-repeat center center/cover;
+    margin-bottom: 15px;
+}
+
+.sports-anchor:hover{
+transform: scale(1.5);
+transition: .8s;
+}
+
+.home-sports-img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+.home-sports-img:hover{
+    opacity: .75;
+}
