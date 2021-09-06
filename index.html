@@ -14,7 +14,7 @@
 <body>
 
     <!-- navbar -->
-    <nav class="navbar navbar-expand-md sticky-top bg-dark navbar-dark pt-5 pb-4">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark pt-5 pb-4">
         <div class="container-xxl">
             <!-- navbar brand / title -->
             <a class="navbar-brand" href="#intro">
@@ -63,7 +63,8 @@
         <div class="container-lg ">
             <div class="row align-items-center justify-content-between">
                 <div class="col-md-8 col-lg-10 text-center">
-                    <p class="fw-bold lead lh-lg fs-4 text-home-intro">Morocco, officially the Kingdom of Morocco, is the
+                    <p class="fw-bold lead lh-lg fs-4 text-home-intro">Morocco, officially the Kingdom of Morocco, is
+                        the
                         northwesternmost
                         country in the Maghreb
                         region of North Africa. It overlooks the Mediterranean Sea to the north and the Atlantic Ocean
@@ -136,7 +137,7 @@
                     </div>
                 </div>
                 <div class="col-sm-9 col-md-5 col-lg-4 col-xl-4 img-card">
-                    <div class="card">
+                    <div class="card ">
                         <div class="card-body text-center py-4 bg-light">
                             <h2 class="card-title my-3">FES</h2>
                             <p class="lead card-subtitle mb-3">the mother of Morocco</p>
@@ -155,84 +156,261 @@
             </div>
         </div>
         <div class="text-center">
-            <a href="#" class="btn btn-primary btn-lg my-5 p-3">Discover more cities</a>
+            <a href="#" class="btn-more btn btn-primary btn-lg my-5 p-3">Discover more cities</a>
         </div>
 
     </section>
 
     <section class="section3" id="sect3">
         <div class="container-xl">
-            <div class="text-center">
-                <div class="display-5 fst-italic muted py-5 mb-5">
-                    Here is what you can do in Morocco :
+            <div class="container-xl">
+                <div class="text-center">
+                    <div class="display-5 fst-italic muted py-5 mb-5">
+                        Here is what you can do in Morocco :
+                    </div>
                 </div>
             </div>
-            <div class="row justify-content-center align-items-center">
-                <div class="col-md-10 col-lg-8 col-xl-7">
-                    <img class="img-fluid border border-5 rounded border-dark home-sports-img"
-                        src="./assets/images/kyle-johnson-cXA0RAiN-rc-unsplash.jpg " alt="">
-                </div>
-                <div class="col-md-8 col-lg-8 col-xl-5 text-center">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="fw-bold fs-5 accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Horse riding
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-md-10 col-lg-8 col-xl-7">
+                                    <img class="img-fluid border border-5 rounded border-dark home-sports-img"
+                                        src="./assets/images/kyle-johnson-cXA0RAiN-rc-unsplash.jpg " alt="">
+                                </div>
+                                <div class="col-md-8 col-lg-8 col-xl-5 text-center">
 
-                    <h2 class="sports-h2-text"> <img src="./assets/images/horse-raising-one-foot-silhouette.png" alt=""> Horse riding </h2>
-                    <h3 class="sports-h2-text mb-5">An ancient heritage</h3>
-                    <p class="lh-lg lead fw-normal">Morocco is the heir to a long tradition illustrated by the national
-                        stud farms of Marrakech,
-                        Meknes, Oujda, El Jadida or Bouznika. During your stay or your trip, ride a horse for an
-                        obstacle course or for a leisurely hike, along the beach or in the Moroccan hinterland.</p>
-                    <a href="" class="btn btn-outline-primary btn-sm sports-anchor">more information...</a>
+                                    <h2 class="sports-h2-text">
+                                        <img src="./assets/images/horse-raising-one-foot-silhouette.png" alt="">Horse
+                                        riding
+                                    </h2>
+                                    <h3 class="sports-h2-text mb-5">An ancient heritage</h3>
+                                    <p class="lh-lg lead fw-normal">Morocco is the heir to a long tradition illustrated
+                                        by the national
+                                        stud farms of Marrakech,
+                                        Meknes, Oujda, El Jadida or Bouznika. During your stay or your trip, ride a
+                                        horse for an
+                                        obstacle course or for a leisurely hike, along the beach or in the Moroccan
+                                        hinterland.</p>
+                                    <a href="" class="btn btn-outline-primary btn-sm sports-anchor">more
+                                        information...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="fw-bold fs-5 accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Cycling
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-md-10 col-lg-8 col-xl-7">
+                                    <img class=" home-sports-img img-fluid border border-5 rounded border-dark"
+                                        src="./assets/images/thomas-schweighofer-n13ABwV-Pic-unsplash.jpg " alt="">
+                                </div>
+                                <div class="col-md-8 col-lg-8 col-xl-5 text-center">
+
+                                    <h2 class="sports-h2-text"> <img src="./assets/images/cycling.png" alt=""> Cycling
+                                    </h2>
+                                    <h3 class="sports-h2-text mb-5">Cycle trips in the heart of nature</h3>
+                                    <p class="lh-lg lead fw-normal">Another mount, but still so much fun! Cycling is
+                                        also in the
+                                        spotlight in the Atlas Mountains. Around Agadir, Marrakech, routes unfold in the
+                                        middle of
+                                        national parks crowned with mountains like that of Talassemtane and present
+                                        mountain bikers with
+                                        some major challenges!</p>
+                                    <a href="" class="btn btn-outline-primary btn-sm sports-anchor">more
+                                        information...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="fw-bold fs-5 accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Caving
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-md-10 col-lg-8 col-xl-7">
+                                    <img class="home-sports-img img-fluid border border-5 rounded border-dark"
+                                        src="./assets/images/ivana-cajina-Hi0bdO0vEfo-unsplash.jpg" alt="">
+                                </div>
+                                <div class="col-md-8 col-lg-8 col-xl-5 text-center">
+
+                                    <h2 class="sports-h2-text"> <img src="./assets/images/cave.png" alt=""> Caving </h2>
+                                    <h3 class="sports-h2-text mb-5">For the pleasure of discovery</h3>
+                                    <p class="lh-lg lead fw-normal">Fans of more adventurous outings? Discover caving!
+                                        Morocco is dotted
+                                        with caves, each more spectacular than the next, like those of Hercules in
+                                        Tangier. In the
+                                        Middle Atlas, it is the site of Kehf Tikhoubai that deserves the detour: its
+                                        galleries plunge
+                                        into the bowels of the earth to nearly 310 meters deep.</p>
+                                    <a href="" class="btn btn-outline-primary btn-sm sports-anchor">more
+                                        information...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="container-xl my-5 py-5">
-
-            <div class="row justify-content-center align-items-center">
-                <div class="col-md-10 col-lg-8 col-xl-7">
-                    <img class=" home-sports-img img-fluid border border-5 rounded border-dark"
-                        src="./assets/images/thomas-schweighofer-n13ABwV-Pic-unsplash.jpg " alt="">
-                </div>
-                <div class="col-md-8 col-lg-8 col-xl-5 text-center">
-
-                    <h2 class="sports-h2-text"> <img src="./assets/images/cycling.png" alt=""> Cycling </h2>
-                    <h3 class="sports-h2-text mb-5">Cycle trips in the heart of nature</h3>
-                    <p class="lh-lg lead fw-normal">Another mount, but still so much fun! Cycling is also in the
-                        spotlight in the Atlas Mountains. Around Agadir, Marrakech, routes unfold in the middle of
-                        national parks crowned with mountains like that of Talassemtane and present mountain bikers with
-                        some major challenges!</p>
-                    <a href="" class="btn btn-outline-primary btn-sm sports-anchor">more information...</a>
-                </div>
+            <div class="text-center p-5">
+                <a href="" class="btn-more btn btn-lg btn-primary p-3">And much more...</a>
             </div>
         </div>
-        <div class="container-xl my-5 py-5">
 
-            <div class="row justify-content-center align-items-center">
-                <div class="col-md-10 col-lg-8 col-xl-7">
-                    <img class="home-sports-img img-fluid border border-5 rounded border-dark"
-                        src="./assets/images/ivana-cajina-Hi0bdO0vEfo-unsplash.jpg" alt="">
-                </div>
-                <div class="col-md-8 col-lg-8 col-xl-5 text-center">
-
-                    <h2 class="sports-h2-text"> <img src="./assets/images/cave.png" alt=""> Caving </h2>
-                    <h3 class="sports-h2-text mb-5">For the pleasure of discovery</h3>
-                    <p class="lh-lg lead fw-normal">Fans of more adventurous outings? Discover caving! Morocco is dotted
-                        with caves, each more spectacular than the next, like those of Hercules in Tangier. In the
-                        Middle Atlas, it is the site of Kehf Tikhoubai that deserves the detour: its galleries plunge
-                        into the bowels of the earth to nearly 310 meters deep.</p>
-                    <a href="" class="btn btn-outline-primary btn-sm sports-anchor">more information...</a>
-                </div>
-            </div>
-        </div>
-        <div class="text-center p-5">
-            <a href="" class="btn btn-lg btn-primary p-3">And much more...</a>
-        </div>
     </section>
 
     <section class="section4" id="sect4">
+        <div class="display-4 text-center fst-italic py-5">
+            Useful information :
+        </div>
+        <div class="container-lg">
 
+            <div class="row justify-content-center">
+                <div class="col-5 col-md-5 col-lg-4 col-xl-3 ">
+                    <a href="#travel"> <img class="img-fluid " src="./assets/images/travelling.jpg" alt=""> </a>
+                </div>
+                <div class="col-5 col-md-5 col-lg-4 col-xl-3 me-3">
+                    <a href="#gettoMor">
+                        <img class="img-fluid" src="./assets/images/getting.PNG" alt="">
+                    </a>
+                </div>
+                <div class="col-6 col-md-5 col-lg-5 col-xl-3">
+                    <a href="#accomo"> <img class="img-fluid" src="./assets/images/accomodation.PNG" alt=""></a>
+                </div>
 
+            </div>
+            <div class="row justify-content-center my-5">
+                <div class="col-6 col-md-5 col-lg-4">
+                    <a href="#food"> <img class="img-fluid" src="./assets/images/food.PNG" alt=""> </a>
+                </div>
+                <div class="col-6 col-md-5 col-lg-4">
+                    <a href="#iconic">
+                        <img class="img-fluid" src="./assets/images/iconic.PNG" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
 
+        <div class="container-xl">
+            <div class="wrapper-section4-part2">
+                <h1 class="text-center text-md-start" id="travel">Travelling :</h1>
+                <p class="fs-4 lead">Depending on the destination of your stay in Morocco, there are many ways to travel
+                    accross
+                    the country.
+                    Whether you take a taxi, a bus, train, or a bicycle, learn how to get around easily, to take a peek
+                    at
+                    all the wonders of Morocco.
+
+                    At the exit of any airport, you can either take shuttle buses, taxis or call a car rental agency.
+                </p>
+            </div>
+            <div class="text-center text-md-start">
+                <a href="" class="btn btn-sm btn-outline-primary mb-3">Read more</a>
+            </div>
+
+            <div class="wrapper-section4-part2">
+                <h1 class="text-center text-md-start mb-3" id="gettoMor">Getting to Morocco :</h1>
+                <p class="fs-4 mb-3">Upon your arrival to Morocco, you start looking for information about the local means of
+                    transport ? Whether you are travelling by air or by ferry, get top tips to make your journey easier
+                    and
+                    enjoyable. You'll find here all the information you need to get started.
+                </p>
+            </div>
+            <div class="text-center text-md-start">
+                <a href="" class="btn btn-sm btn-outline-primary mb-3">Read more</a>
+            </div>
+            <div class="wrapper-section4-part2">
+                <h1 class="text-center text-md-start mb-3" id="accomo">Accomodation :</h1>
+                <p class="fs-4 mb-3">Upon your arrival in Morocco, you have various options of accomodation : from luxury
+                    hotels,
+                    to country campings and bivouacs, to budget-freindly hostels. All in an atmosphere of hospitality,
+                    well-being, and friendliness, for an ideal say in the sunny land.
+                </p>
+            </div>
+            <div class="text-center text-md-start">
+                <a href="" class="btn btn-sm btn-outline-primary mb-3">Read more</a>
+            </div>
+            <div class="wrapper-section4-part2">
+                <h1 class="text-center text-md-start mb-3" id="food">Food and drinks :</h1>
+                <p class="fs-4 mb-3">Renowned for its delectable and various dishes, Morocco was classified second in the
+                    2017
+                    ranking of the best
+                    gourmand's global destinations, according to the British blog Worldsim Travel. The kingdom offers to
+                    its
+                    visitors an exceptional culinary experience. Marrakech, Fez, Agadir and Rabat are among the most
+                    tempting
+                    culinary destinations. More than 15 Moroccan restaurants are amongst the 1000 best restaurants
+                    worldwide,
+                    according to« La Liste ». Enjoy the best Moroccan culinary delights has to offer to you : Mint tea,
+                    Tajine,
+                    Couscous, or Pastilla, are awaiting for you !.
+                </p>
+            </div>
+            <div class="text-center text-md-start">
+                <a href="" class="btn btn-sm btn-outline-primary mb-3">Read more</a>
+            </div>
+            <div class="wrapper-section4-part2">
+                <h1 class="text-center text-md-start mb-3" id="iconic">Iconic things to do :</h1>
+                <h5 class="fst-italic mb-3">Your cheat sheet to enjoy best your stay !</h5>
+                <p class="fs-4 mb-3">
+                    To discover all the hidden treasures of Morocco and its attractive historical sites, the following
+                    iconic
+                    places and rituels are the most popular ones in Moroccan heritage. These will guide you through your
+                    journey
+                    as your check-list that helps you get to grips with the experiences you want to enjoy.
+                </p>
+            </div>
+            <div class="text-center text-md-start">
+                <a href="" class="btn btn-sm btn-outline-primary mb-3">Read more</a>
+            </div>
+        </div>
 
     </section>
+
+    <section class="section5" id="sect5">
+        <div class="container-xl">
+            <h1 class="py-5 section5-text fw-bold text-center text-xl-start">This is truly the country you have <br> always dreamt of !</h1>
+            <br> <br>
+            <h2 class="section5-text text-center text-xl-start" >Come and visit it ! </h2> <br><br><br><br><br>
+            <h3 class="fw-bold section5-text text-center text-xl-start">Ride a camel, swim in the ocean,<br> discover moroccan forests and wild lands</h3> <br><br><br>
+            <h4 class="section5-text text-center text-xl-start" style="color: #2a363b;">or sleep in a tent in the middle of the desert, under the stars</h4> <br><br><br> <br><br><br>
+            <h3 class="text-xl-start text-center section5-text">Do the things you have always wanted,<br> this is the opportunty !</h3>
+            <br><br> <br><br>
+            <h4 class="section5-text text-center text-xl-start">You will never regret this experience !</h4>
+
+            <br><br><br><br><br><br>
+        </div>
+
+    </section>
+
+    <footer class="">
+
+
+    </footer>
 
 
 
