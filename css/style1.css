@@ -3,15 +3,15 @@
 
 
 
-.SiteTitle:before{
+nav .SiteTitle:before{
     content: url(../assets/images/morocco.png);
     position: relative;
     top: 5px;
 }
-.navitem:hover{
+nav .navitem:hover{
 font-size: 1.3em;
 }
-.SiteTitle:hover{
+nav .SiteTitle:hover{
 font-weight: 900;
 letter-spacing: .1em;
 transition: .5s;
@@ -20,13 +20,13 @@ transition: .5s;
     background: url(../assets/images/imageedit_2_6213772232.png) no-repeat center center/cover;
     margin-bottom: 15px;
 }
-#sect1{
+.section1{
     padding-top: 150px;
     padding-bottom: 150px;
 
 }
 
-.bi-award-fill:hover{
+.section1 .bi-award-fill:hover{
 filter: invert(.5);
 transform: rotate(360deg);
 }
@@ -50,21 +50,82 @@ transform: rotate(360deg);
 .section3 .sports-h2-text:hover{
 color: white;
 }
-.section4{
-    background: url(../assets/images/imageedit_10_4435738060.png) no-repeat center center/cover;
-    margin-bottom: 15px;
+
+.section3 .accordion-body{
+    background-color:#488a993d;
 }
 
-.sports-anchor:hover{
+
+.section2 .btn-more:hover, .section3 .btn-more:hover{
+    transform: scale(1.2);
+    transition: .5s;
+    color: blue;
+    background-color: white;
+}
+
+.section3 .sports-anchor:hover{
 transform: scale(1.5);
 transition: .8s;
 }
 
-.home-sports-img{
+.section3 .home-sports-img{
     height: 500px;
     width: 100%;
     object-fit: cover;
 }
-.home-sports-img:hover{
+.section3 .home-sports-img:hover{
     opacity: .75;
+}
+.section4{
+    background: url(../assets/images/imageedit_10_4435738060.png) no-repeat center center/cover;
+    margin-bottom: 15px;
+}
+.section4 img{
+    border-radius: 20px;
+}
+.section4 img:hover{
+    transform: scale(1.22);
+    transition: .5s;
+    opacity: .85;
+}
+
+.section4 .wrapper-section4-part2:hover{
+    color: whitesmoke;
+}
+
+.section5{
+        background: url(../assets/images/imageedit_2_4413743080.png) no-repeat center center/cover;
+        margin-bottom: 15px;
+}
+.section5 h2{
+    color: #355c7d;;
+}
+.section5 h3{
+    color: #488a99;
+}
+.section5 h4 {
+    color: #2f12b1;
+}
+ .section5-text:hover{
+    color: black;
+    transform: scale(1.05);
+    transition: .3s ;
+}
+
+
+
+
+
+@media screen and (max-width:1000px){
+    .section5{
+        background: url(../assets/images/imageedit_4_5851923955.png)no-repeat center center/cover;
+    }
+
+
+
+}
+@media screen and (max-width:600px){
+  #sect5  .section5-text{
+        color: black;
+    }
 }
