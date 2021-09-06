@@ -1,6 +1,4 @@
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Atomic+Age&family=Palette+Mosaic&display=swap');
 
 
 nav .SiteTitle:before{
@@ -92,6 +90,27 @@ transition: .8s;
 .section4 .wrapper-section4-part2:hover{
     color: whitesmoke;
 }
+.section1 .subtitle{
+    font-family: Atomic Age ;
+    font-weight: bolder;
+    font-size: 1em;
+}
+.section2 .sections-heading{
+    font-family: Atomic Age ;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.section3 .sections-heading{
+    font-family: Atomic Age ;
+    font-weight: bolder;
+    font-size: 3em;
+}
+.section4 .sections-heading{
+    font-family: Atomic Age ;
+    font-weight: bolder;
+    font-size: 3em;
+}
 
 .section5{
         background: url(../assets/images/imageedit_2_4413743080.png) no-repeat center center/cover;
@@ -112,6 +131,27 @@ transition: .8s;
     transition: .3s ;
 }
 
+footer{
+    background-color: #c2b280; /*sand color*/
+}
+
+
+footer .grid-footer h3{
+    color: white;
+}
+footer .grid-footer h3:hover{
+    color: black;
+}
+footer .grid-footer p{
+    color: black;
+}
+footer .grid-footer a{
+    text-decoration: none;
+}
+footer .grid-footer p:hover{
+    color: white;
+}
+
 
 
 
@@ -129,3 +169,5 @@ transition: .8s;
         color: black;
     }
 }
+
+
