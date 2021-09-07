@@ -1,0 +1,42 @@
+
+
+
+nav .SiteTitle:before{
+    content: url(./assets/images/morocco.png);
+    position: relative;
+    top: 5px;
+}
+nav .navitem:hover{
+font-size: 1.3em;
+}
+nav .SiteTitle:hover{
+font-weight: 900;
+letter-spacing: .1em;
+transition: .5s;
+}
+
+
+
+
+footer{
+    background-color: #c2b280; /*sand color*/
+}
+
+
+footer .grid-footer h3{
+    color: white;
+}
+footer .grid-footer h3:hover{
+    color: black;
+}
+footer .grid-footer p{
+    color: black;
+}
+footer .grid-footer a{
+    text-decoration: none;
+}
+footer .grid-footer p:hover{
+    color: white;
+}
+
+

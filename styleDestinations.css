@@ -1,0 +1,43 @@
+
+.northSection{
+    background: url(./assets/images/tangier2.jpg) no-repeat center center/cover;
+}
+
+.carousel-inner h5{
+    font-size: 30px;
+}
+.carousel-inner h5 , .carousel-inner p{
+    color: white;
+    font-size: larger;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.southSection{
+    background: url(./assets/images/desert-bg-img.jpg) no-repeat center center/cover;
+}
+
+
+
+.eastSection{
+    background: url(./assets/images/bg-east.jpg) no-repeat center center/cover;
+
+}
+
+.westSection{
+    background: url(./assets/images/ocean.jpg) no-repeat center center/cover;
+
+}
+
+#north{
+    background-color: rgb(152, 211, 191)
+}
+
+#south{
+    background-color: rgb(216, 161, 114);
+}
+#east{
+    background-color: rgba(216, 162, 114, 0.767);
+}
+#west{
+    background-color: #232649 ;
+}
