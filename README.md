@@ -27,7 +27,7 @@ https://ibb.co/4JKnpjX
 
 This was my main motivation that lead to this project.
 
-I am using , for its building, HTML5, CSS3, Bootstrap5, and a bit of JavaScript.
+I am using , for its building, HTML5, CSS3, Bootstrap5, and JavaScript.
 
 I hope you will like and support this project .
 
